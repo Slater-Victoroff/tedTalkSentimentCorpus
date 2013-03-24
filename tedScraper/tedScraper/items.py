@@ -5,7 +5,14 @@
 
 from scrapy.item import Item, Field
 
-class TedscraperItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+class tedTalk(Item):
+    title = Field()
+    speaker = Field()
+    duration = Field()
+    datePublished = Field()
+    eventName = Field()
+    ShortSummary = Field()
+    url = Field()
+    rankings = Field()
+    transcript = Field()
+    
